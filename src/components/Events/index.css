@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+}
+.first {
+  background-color: #3a4b63;
+  height: 100vh;
+  background-size: cover;
+  width: 70%;
+  padding: 20px;
+  overflow-y: auto;
+}
+.title {
+  color: white;
+  font-family: 'Roboto';
+  padding-left: 50px;
+}
+.event-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
